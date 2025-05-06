@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .galeria {
+    padding: 70px;
+    text-align: center;
+    color: rgb(250, 250, 250);
+  }
+  
+  .contenedor-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .contenedor-galeria img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px rgba(253, 3, 3, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .contenedor-galeria img:hover {
+    transform: scale(1.05);
+  }
