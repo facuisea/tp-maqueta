@@ -5,8 +5,8 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Texto más arriba */
-    padding-top: 100px;       /* Ajusta según qué tan arriba lo quieres */
+    align-items: flex-start;  
+    padding-top: 100px;       
     text-align: center;
     color: white;
   }
@@ -18,10 +18,11 @@
   }
   
   .hero-text h1 {
-    font-size: 3em; /* Más grande */
-    margin: 0;
+    font-size: 3em;  
   }
   
   .hero-text p {
-    font-size: 1.5em; /* Más grande */
+    font-size: 1.5em;  
   }
+  
+  

@@ -15,17 +15,21 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 25px;
   }
   
   .contenedor-galeria img {
-    width: 300px;
+    width: 200px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 15px 15px rgba(253, 3, 3, 0.2);
-    transition: transform 0.3s;
+    transition: transform 0.5s;
   }
   
   .contenedor-galeria img:hover {
-    transform: scale(1.05);
+    transform: scale(1.55);
+  }
+
+  a {
+  color: rgb(187, 16, 16);
   }
